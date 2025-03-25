@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ansi-30-color: #4f545c;
+  --ansi-31-color: #dc322f;
+  --ansi-32-color: #859900;
+  --ansi-33-color: #b58900;
+  --ansi-34-color: #268bd2;
+  --ansi-35-color: #d33682;
+  --ansi-36-color: #2aa198;
+  --ansi-37-color: #ffffff;
+  --ansi-40-color: #002b36;
+  --ansi-41-color: #cb4b16;
+  --ansi-42-color: #586e75;
+  --ansi-43-color: #657b83;
+  --ansi-44-color: #839496;
+  --ansi-45-color: #6c71c4;
+  --ansi-46-color: #93a1a1;
+  --ansi-47-color: #fdf6e3;
+}
+
+/* ANSI Color Classes */
+.ansi-1 { font-weight: 700; text-decoration: none; }
+.ansi-4 { font-weight: 500; text-decoration: underline; }
+
+.ansi-30 { color: var(--ansi-30-color); }
+.ansi-31 { color: var(--ansi-31-color); }
+.ansi-32 { color: var(--ansi-32-color); }
+.ansi-33 { color: var(--ansi-33-color); }
+.ansi-34 { color: var(--ansi-34-color); }
+.ansi-35 { color: var(--ansi-35-color); }
+.ansi-36 { color: var(--ansi-36-color); }
+.ansi-37 { color: var(--ansi-37-color); }
+
+.ansi-40 { background-color: var(--ansi-40-color); }
+.ansi-41 { background-color: var(--ansi-41-color); }
+.ansi-42 { background-color: var(--ansi-42-color); }
+.ansi-43 { background-color: var(--ansi-43-color); }
+.ansi-44 { background-color: var(--ansi-44-color); }
+.ansi-45 { background-color: var(--ansi-45-color); }
+.ansi-46 { background-color: var(--ansi-46-color); }
+.ansi-47 { background-color: var(--ansi-47-color); }
